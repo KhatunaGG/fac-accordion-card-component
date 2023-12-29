@@ -1,0 +1,68 @@
+.imgBox {
+  position: relative;
+  width: 237px;
+  height: 180px;
+  top: -106px;
+  left: 42px;
+  margin-bottom: -47px;
+}
+
+.mainImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.shadowImg {
+  position: absolute;
+  top: 106px;
+  left: 0;
+}
+
+.squareImg {
+  position: absolute;
+  top: 56px;
+  left: -31px;
+}
+
+.none {
+  display: none;
+}
+
+.mainImgDesktop,
+.shadowImgDesktop,
+.squareImgDesktop {
+  display: none;
+}
+
+@media screen and (width > 375px) {
+  .mainImgDesktop {
+    position: absolute;
+    top: -24px;
+    left: -43px;
+    z-index: 2;
+    display: block;
+  }
+
+  .shadowImgDesktop {
+    position: absolute;
+    top: -65px;
+    left: -42px;
+    z-index: 1;
+    display: block;
+  }
+
+  .squareImgDesktop {
+    position: absolute;
+    top: 108px;
+    left: -109px;
+    z-index: 3;
+    display: block;
+  }
+
+  .mainImg,
+  .shadowImg,
+  .squareImg {
+    display: none;
+  }
+}

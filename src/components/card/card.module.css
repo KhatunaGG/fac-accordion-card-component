@@ -1,0 +1,33 @@
+:root {
+  --active-color: #1e1f36;
+  --border-color: #e8e8ea;
+  --subtext: #787887;
+  --letters: #4b4c5f;
+}
+
+.card {
+  width: 88%;
+  margin-top: 400px;
+  margin-bottom: 88px;
+}
+
+.cardItem {
+  border-radius: 23px;
+  background-color: #fff;
+  position: relative;
+}
+
+@media screen and (width > 375px) {
+  .card {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 920px;
+  }
+  .cardItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 111px 83px 0px;
+  }
+}

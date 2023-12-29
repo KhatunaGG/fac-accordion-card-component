@@ -1,0 +1,18 @@
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    /* height: 100%; */
+    /* padding-top: 400px;
+    padding-bottom: 88px; */
+   
+    
+}
+
+/* @media screen and (width > 375px) {
+    #root {
+        height: 100%;
+    }
+} */

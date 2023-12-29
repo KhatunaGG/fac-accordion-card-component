@@ -1,0 +1,16 @@
+.title {
+  font-style: 32px;
+  font-weight: 700;
+  color: var(--active-color);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (width > 375px) {
+  .title {
+    justify-content: flex-start;
+    margin-bottom: 43px;
+  }
+}

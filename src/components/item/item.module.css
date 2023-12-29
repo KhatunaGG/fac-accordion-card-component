@@ -1,0 +1,55 @@
+.question {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--letters);
+}
+
+.questionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e8e8ea;
+}
+
+.h2Bold {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e1f36;
+}
+
+.answerItem {
+  transition: 0.8s ease-in;
+}
+
+.answerText {
+  padding-top: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #787887;
+}
+
+.cardItem {
+  border-radius: 23px;
+  background-color: #fff;
+  position: relative;
+}
+
+.arrowBtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.arrowRotate {
+  transform: rotate(180deg);
+  transition: transform 0.5s;
+}
+
+@media screen and (width > 375px) {
+  .question {
+    font-size: 14px;
+  }
+}
